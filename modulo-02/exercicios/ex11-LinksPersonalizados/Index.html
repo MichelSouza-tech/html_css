@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css"/>
+    <title>Personalizando Links</title>
+    <style>
+      body {
+        font-family: Arial,  Helvetica, sans-serif;
+      }
+      a {
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:visited { /* pseudo-classe quando o link for visitado */
+        color: darkred;
+      }
+      a:hover{ /* pseudo-classe quando passar o ponteiro do mouse por cima */
+        color: darkgreen;
+        text-decoration: underline;
+      }
+      a:active { /* pseudo-classe quando o link for ativado */
+        font-size: 14px;
+      }
+      
+      a::before{
+        content: ' [link] ';
+        text-decoration: none;
+        font-weight: normal;
+        color: darkblue;
+      }
+      a::after{
+        content: ' [link] ';
+        text-decoration: none;
+        font-weight: normal;
+        color: darkblue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- pseudo-classes definem o estado dos elementos dentro da html -->
+    <!-- pseudo-elementos mexem diretamente no conteudo dos elementos -->  
+    <ul>
+      <li> <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">Repositorio GitHub</a></li>
+      <li> <a href="https://www.estudonauta.com" target="_blank" rel="external">Site do Estudonauta</a></li>
+      <li> <a href="https://www.cursoemvideo.com" target="_blank" rel="external">Site do CursoemVideo</a></li>
+    </ul>
+  </body>
+</html>

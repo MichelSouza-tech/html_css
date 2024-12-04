@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Formatando Textos parte 3</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código-Fonte</h2>
+    <h3>Usando a tag &lt;code&gt;</h3>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript. </p>
+    <!-- A tag code coloca em fonte monoespaçada -->
+
+    <code>
+        num = int (input('Digite um número'))
+        if num % 2 == 0
+            print(f' O número {num} é par )
+        else:
+            print(f' O número {num} é impar)
+    </code>
+    <h3>Usando a tag &lt;pre&gt;</h3>
+    <pre>
+        <code>
+    num = int (input('Digite um número'))
+    if num % 2 == 0
+        print(f' O número {num} é par )
+    else:
+        print(f' O número {num} é impar)
+        </code>                
+    </pre>
+    <!--A tag <pre> considera as tabulações, mostrandona tela do mesmo jeito que foi escrito/formatado -->
+
+    <h2>Citações</h2>
+    <h3>Usando a tag &lt;q&gt; - citações simples</h3>
+    <p>
+        Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q>
+    </p>
+    <!--Tag <q> (quote) usada para citações simples -->
+    
+        <h3>Usando a tag &lt;blockquote&gt; - bloco de citações</h3>
+        <p>Segundo Preston Prescott, no seu livro HTML 5:</p>
+        <blockquote cite="https://www.google.com.br/books/edition/HTML_5/5OyNCgAAQBAJ?hl=pt-BR&gbpv=1">
+            O HTML contém instruções especiais que permitem a linhas de textos apontarem para informações na internet. Tais apontadores são denominados normalmente de "hiperligações", e são os componentes mais importantes da World Wide Web. 
+        </blockquote>
+        <!--Tag <blockquote> serve para citações mais complexas, um bloco de citações-->
+
+    <h2>Abreviação</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar sites em HTML</bdo></p>
+    <p><bdo dir="rtl">socorram-me, subi no ônibus em marrocos</bdo></p>   
+</body>
+</html>

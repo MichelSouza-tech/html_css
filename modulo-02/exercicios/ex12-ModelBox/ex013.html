@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping  Tags</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            outline: none;  
+            text-shadow: none;    
+            box-shadow: none;  
+
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #E7E9F3;
+            width: 860px;
+            margin: 0 auto;
+        }
+        header{        
+            background-color: #0D1748;
+            padding: 6px;
+            margin: 0px 4px;
+            border-radius: 4px;
+            box-shadow: 2px 2px 3px 1.3px rgba(0, 0, 0, 0.4);
+        }
+        h1{
+            text-align: center;
+            color: #fff;
+        }
+        nav{
+            background-color: #515E9D;
+            padding: 8px 4px 4px;
+            box-shadow: inset 1px 1px 2px 1px rgba(255, 255, 255, 0.4);
+            border-radius: 4px;
+            margin: 4px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: #FFFFFF;
+            font-weight: bold;
+            margin-right: 40px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            
+        }
+        main{
+            background-color: #0D1748;
+            padding: 4px;
+            margin: 9px 4px;
+            box-shadow: 2px 2px 3px 1.3px rgba(0, 0, 0, 0.4);
+            border-radius: 4px;
+        }
+        h2{
+            margin: 6px 4px; color: #fff;
+        }
+        section#assuntos{
+            background-color: rgb(116, 30, 116); 
+            padding: 4px;
+            margin: 0px;
+            border-radius: 4px;
+            
+        }
+        article.assuntos{
+            background-color: #fff;
+            margin: 4px;
+            padding: 4px;
+            border-radius: 4px;
+        }    
+        
+        article.assuntos > h3{
+            text-align: center;
+            color: #0D1748;
+            margin-bottom: 10px;
+        }
+        section#noticias{
+            background-color: rgb(116, 30, 116); 
+            padding: 4px;
+            border-radius: 4px;
+        }     
+        article{
+            background-color: #fff; 
+            padding: 4px;
+            border-radius: 4px;
+        }
+        article > aside{
+            background-color: #283573;            
+            margin-top: 10px;
+            padding: 4px;
+            font-size: .85em;
+            border-radius: 4px;
+        }
+        article > aside > p{
+            color: #8893C8;
+            font-weight: bold;
+            font-style: italic;
+        }
+        p{
+            color: black;
+            text-align: justify;
+        }
+               
+        footer{
+            background-color: #0D1748;
+            color: #fff;
+            text-align: center;
+            padding: 6px;
+            margin: 8px 4px;
+            border-radius: 4px;
+            box-shadow: 2px 2px 3px 1.3px rgba(0, 0, 0, 0.4);
+        }
+        footer > p {
+            text-align: center;
+            color: #fff;
+        } 
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mundo das Notícias</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        
+        <h2>Principais assuntos</h2>            
+        <section id="assuntos">
+            <article class="assuntos">
+                <h3>Esportes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore at, a praesentium cupiditate assumenda maxime amet? Harum nostrum magni veritatis quam soluta placeat quas excepturi eum. Nam fuga enim sed?</p>
+            </article>
+
+            <article class="assuntos">    
+                <h3>Política</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ullam sequi perspiciatis earum ducimus quidem officia, nemo cum sunt molestias nostrum beatae aperiam libero vel ab quibusdam ipsa fugiat in?</p>
+            </article>
+
+            <article class="assuntos">
+                <h3>Entretenimento</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, minima. Quidem libero nobis rem, id totam minima eaque similique eius consequuntur, provident aspernatur aut. Labore doloremque laudantium totam minus porro!</p>
+            </article>
+            
+            <article class="assuntos">
+                <h3>Tecnologia</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla labore eius ut vero. Tempora molestiae provident a rerum, voluptatibus animi fugit doloribus nesciunt consequuntur libero laborum velit magni perspiciatis error!</p>
+            </article> 
+            
+            <article class="assuntos">
+                <h3>Economia</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla labore eius ut vero. Tempora molestiae provident a rerum, voluptatibus animi fugit doloribus nesciunt consequuntur libero laborum velit magni perspiciatis error!</p>
+            </article>
+            
+        </section>
+        
+        <h2>Notícias sobre o Brasil</h2>
+        <section id="noticias">
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, est obcaecati dolore deleniti voluptate expedita dignissimos facere quam quasi aut voluptas, tempora impedit. Veniam iure distinctio cupiditate dicta dolor incidunt?
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia impedit reiciendis molestias quis molestiae quod voluptatibus assumenda totam labore facilis illo tempore incidunt ullam dolore, soluta possimus ducimus dolorum temporibus.
+                </p>
+                <aside>
+                    <p>Artigo escrito por: Fulanilda da Silva</p>
+                </aside>
+            </article>            
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por: Michel Souza</p>
+    </footer>
+    
+</body>
+</html>
