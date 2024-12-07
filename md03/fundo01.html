@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem de Fundo</title>
+</head>
+<style>
+    /* Colocando imagem de fundo no body */
+    body{
+    background-image: url(./image/wallpaper001.jpg);
+    }
+    /* Estilizando div quadrado */
+    div.quadrado{
+        display: inline-block;
+        border: 2px solid red;
+        border-radius: 10px;
+        background-color: lightgrey;
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        
+    }
+    /* colocando fundo com cor */
+    div#q1{
+        background-color: skyblue;
+    }
+    /* Colocando fundo com degradê */
+    div#q2{
+        background-image: linear-gradient(to top, yellow, darkred);
+    }
+    /* Colocando Fundo com imagem interna */
+    #q3{
+        background-image: url(./image/pattern003.png);
+    }
+    p{
+        font: 600 1.4em Arial, sans-serif;
+        color: darkblue;
+    }
+    div#q3 p{
+        background-color: yellow;
+        color: blue;
+    }
+</style>
+<body>
+    <div class="quadrado" id="q1">
+        <p>Fundo com cor</p>
+    </div>
+
+    <div class="quadrado" id="q2">
+        <p>Fundo com degradê</p>
+    </div>
+
+    <div class="quadrado" id="q3">
+        <p>Fundo com imagem </p>
+    </div>
+</body>
+</html>
