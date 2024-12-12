@@ -12,6 +12,7 @@
             width: 400px;
             height: 120px ;
             border-collapse: collapse;
+            position: relative;
         }
         caption{
             font-size: 1.2em;
@@ -30,6 +31,12 @@
             background-color: darkred;
             color: white;
         }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: darkred;
+        }
+
         td, th {
             border: 1px solid black;    
             padding: 8px;
@@ -45,7 +52,7 @@
 </head>
 <body>
     <h1>Trabalhando com tabelas</h1>
-    <h2>Tabela simples</h2>
+    <!-- <h2>Tabela simples</h2>
     <table>
         <tr>
             <td>A1</td>
@@ -67,7 +74,7 @@
             <td>B4</td>
             <td>C4</td>
         </tr>
-    </table>
+    </table> -->
 
     <h2>tabela completa</h2>
     <!-- tabela -->
@@ -79,7 +86,7 @@
         <tr>
         <!-- dados -->
             <th scope="col">Estado</th>
-            <th scope="col" style="width: 60px;">População</th>
+            <th scope="col" style="width: 100px;">População</th>
         </tr>
         </thead>
         <!-- corpo -->
@@ -145,5 +152,11 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum repudiandae nemo qui, laborum veniam odit sed fuga ipsum, placeat facilis quia, possimus enim suscipit consectetur assumenda molestiae? Nulla, iure consequuntur!</p>
+    <p>Nemo vel quas laboriosam! Vero totam alias excepturi molestias illo rerum laudantium asperiores omnis neque distinctio enim incidunt eaque ipsum nemo, nesciunt quos reiciendis, placeat aliquid molestiae. Dignissimos, perspiciatis numquam.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, porro debitis hic iusto tenetur et illum dolorem tempore. Possimus sapiente veritatis et officia necessitatibus debitis laborum nemo fugit vitae porro.</p>
+    <p>Molestiae dolor beatae fuga, fugit itaque consequuntur veritatis est recusandae possimus illum? Placeat aperiam rem tempore ipsum possimus quas, saepe atque eligendi adipisci, unde ab eaque. Labore dicta culpa excepturi.</p>
+    <p>Ipsam aliquam blanditiis saepe necessitatibus cupiditate impedit magni tempore sit debitis maxime, pariatur iste ut repudiandae excepturi ratione qui eligendi modi officiis doloribus? Necessitatibus ipsam ut beatae autem inventore laudantium?</p>
+
 </body>
 </html>
