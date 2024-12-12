@@ -16,10 +16,17 @@
         caption{
             font-size: 1.2em;
             padding: 10px;
-            background-color: lightblue;
+            background-color: lightsalmon;
             font-weight: bold;
         }
-        thead{
+        tbody tr:nth-child(odd)/* pular a linha impar* ou 2n-1/ {
+            background-color: lightyellow;
+        }
+        tbody tr:nth-child(even)/* pular a linha par ou 2n*/ {
+            background-color: lightsteelblue;
+        }
+
+        thead, tfoot{
             background-color: darkred;
             color: white;
         }
@@ -32,10 +39,7 @@
         td.num {
             text-align: right;
         }
-        tfoot{
-            background-color: darkslategray;
-            color: white;
-        }
+        
         
     </style>
 </head>
