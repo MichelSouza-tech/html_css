@@ -10,28 +10,32 @@
         }
         table {
             width: 400px;
-            height: 400px ;
+            height: 120px ;
             border-collapse: collapse;
         }
-        td {
+        thead{
+            background-color: darkred;
+            color: white;
+        }
+        td, th {
             border: 1px solid black;    
             padding: 8px;
-            text-align: center;
-            vertical-align: top; /* top middle bottom */
+            text-align: left;
+            vertical-align: middle; /* top middle bottom */
+        }
+        td.num {
+            text-align: right;
+        }
+        tfoot{
+            background-color: darkslategray;
+            color: white;
         }
         
     </style>
 </head>
 <body>
-    <h1>Minha primeira tabela</h1>
-    <!-- 
-    HIERARQUIA DE TABELAS (SIMPLES)
-    TABLE = tabela
-    TABLE HEADER = cabeçalho de tabela
-    TABLE ROW (TR) = linha de tabela
-    TABLE DATA (TD) = dados de tabela (células)
-    -->
-
+    <h1>Trabalhando com tabelas</h1>
+    <h2>Tabela simples</h2>
     <table>
         <tr>
             <td>A1</td>
@@ -53,6 +57,62 @@
             <td>B4</td>
             <td>C4</td>
         </tr>
+    </table>
+
+    <h2>tabela completa</h2>
+    <!-- tabela -->
+    <table>
+        <!-- cabeça -->
+        <thead>
+        <!-- linha da tabela -->    
+        <tr>
+        <!-- dados -->
+            <th>Estado</th>
+            <th>População</th>
+        </tr>
+        </thead>
+        <!-- corpo -->
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 433 957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 557 071</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9 132 078</td>
+            </tr>
+        </tbody>
+        <!-- pé -->
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <td class="num"><strong>140 726 192</strong></td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
