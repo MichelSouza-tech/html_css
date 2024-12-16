@@ -6,15 +6,14 @@
     <title>JavaScript</title>    
 </head>
 <body style="background-color: cornsilk;">
-    
-    <a href="#" onclick="clicou">Clique em mim</a>
-    <div id="clique" style="margin-top: 20px;">
-    </div>
+    <h1>Clique no link abaixo...</h1>
+    <a href="#" onclick="clicou()">Clique em mim...</a>
+    <div id="saida" style="margin-top: 20px;"></div>
 
    <script>
     function clicou() {
-        var teste = document.getElementById("clique");
-            s.innerHTML += '<p>foi clicado</p>';
+        var t = window.document.getElementById("saida")
+            t.innerHTML += '<p> foi clicado </p>'
     }
    </script>
 </body>
