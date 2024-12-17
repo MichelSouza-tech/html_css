@@ -6,8 +6,8 @@
     <title>Formulários</title>
 </head>
 <body>
-    <h1>Meu primeiro formulário</h1>
-    <form action="" method="get" autocomplete="on">
+    <h1>Aprendendo Formulários</h1>
+    <!-- <form action="" method="get" autocomplete="on">
         <p><label for="nome">Nome:</label>  
             <input type="text" name="nome" id="nome">
         </p>
@@ -15,19 +15,19 @@
             <input type="text" name="sobrenome" id="sobrenome">
         </p>
         <p> <input type="submit" value="Enviar"> </p>
-    </form>
+    </form> -->
 
     <form action="" method="post">
         <p>
             <label for="iusu">Usuário:</label>
-            <input type="text" name="usu" id="iusu">
+            <input type="text" name="usu" id="iusu" required>
         </p>
         <p>
             <label for="isenha">Senha:</label>
-            <input type="password" name="senha" id="isenha">
+            <input type="password" name="senha" id="isenha" required>
         </p>
-        <p><input type="submit" name="enviar" id="Enviar"></p>
-        <p><input type="reset" name="limpar" id="Limpar"></p>
+        <p><input type="submit" value="Enviar"></p>
+        <p><input type="reset" value="Limpar"></p>
     </form>
 </body>
 </html>
