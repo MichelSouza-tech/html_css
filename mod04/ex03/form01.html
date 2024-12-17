@@ -17,14 +17,14 @@
         <p> <input type="submit" value="Enviar"> </p>
     </form> -->
 
-    <form action="" method="post" autocomplete="on">
+    <form action="cadastro.php" method="get" autocomplete="on">
         <p>
             <label for="iusu">Usuário:</label>
-            <input type="text" name="usu" id="iusu" required minlength="20" maxlength="20" size="30" placeholder="Nome do usuário" autocomplete="username">
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="20" size="30" placeholder="Nome do usuário" autocomplete="username">
         </p>
         <p>
             <label for="isenha">Senha:</label>
-            <input type="password" name="senha" id="isenha" required minlength="8" maxlength="20" size="30" placeholder="sua senha - mínimo 8 letras">
+            <input type="password" name="senha" id="isenha" required minlength="8" maxlength="20" size="30" placeholder="sua senha - mínimo 8 letras" autocomplete="current-password">
         </p>
         <p><input type="submit" value="Enviar"></p>
         <p><input type="reset" value="Limpar"></p>

@@ -1,1 +1,2 @@
-echo"Página de cadastro";
+Dados foram enviados!
+Aprenda uma linguagem de proramação!
