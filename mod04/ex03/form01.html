@@ -27,11 +27,22 @@
             <input type="password" name="senha" id="isenha" required minlength="8" maxlength="20" size="30" placeholder="sua senha - mínimo 8 letras" autocomplete="current-password">
 
             <p>
+                <label for="num">Campo numérico:</label>
                 <input type="number" name="num" id="num" min="0" max="10" step="0.1" value="0">
             </p>
             <p>
+                <label for="mes">Dia e mês:</label>
                 <input type="month" name="mes" id="mes">
             </p>
+            <p>
+                <label for="calendar">Dia mês ano: </label>
+                <input type="date" name="calendar" id="calendar">
+            </p>
+            <p>
+                <label for="hora "> Horário: </label>
+                <input type="time" name="hora" id="hora">
+            </p>
+            
         </p>
         <p><input type="submit" value="Enviar"></p>
         <p><input type="reset" value="Limpar"></p>
