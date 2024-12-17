@@ -1,0 +1,1 @@
+echo"Página de cadastro";
