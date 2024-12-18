@@ -49,7 +49,9 @@
     </form>
     <script>
         function calcIdade() {
-            let atual = new 
+            let atual = new Date().getFullYear()
+            idade.innerHTML = Number(atual) - Number(iano.value)
+
         }
     </script>
 </body>
