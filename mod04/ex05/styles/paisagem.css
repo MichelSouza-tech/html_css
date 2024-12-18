@@ -1,3 +1,7 @@
 @charset "utf-8";
 
 /* Aparelho na horizontal - landscape  */
+
+body{
+    background-image: url(../img/cev-landscape.jpg);
+}
