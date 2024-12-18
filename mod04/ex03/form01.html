@@ -87,7 +87,51 @@
         <p>
             <label for="ifoto">Foto do perfil:</label>
             <input type="file" name="foto" id="ifoto">
-<!-- quando usar envio de arquivos não pode usar o método get, tem que usar o método post -->
+            <!-- quando usar envio de arquivos não pode usar o método get, tem que usar o método post -->
+        </p>
+
+        <p>
+            <label for="iest">Estado:</label>
+            <select name="estado" id="iest">
+                <optgroup label="Região Sudeste">
+                    <option value="ES">Espírito Santo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+                
+                <optgroup label="Região Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </optgroup>
+                
+                <optgroup label="Região Nordeste">
+                    <option value="BH">Bahia</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="CE">Ceará</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="PI">Piauí</option>
+                </optgroup>
+
+                <optgroup label="Região Oeste">
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="GO">Goias</option>
+                    <option value="TO">Tocantins</option>
+                </optgroup>
+                
+                <optgroup label="Região Norte">
+                    <option value="AM">Amazonas</option>
+                    <option value="AC">Acre</option>
+                    <option value="RO">Rondonia</option>
+                    <option value="RR">Roraima</option>
+                </optgroup>
+            </select>
         </p>
         
         <p>
