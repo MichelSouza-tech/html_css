@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Aprendendo Formulários</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="#" method="post" autocomplete="on">
         <fieldset>
             <legend>Dados de Formulários</legend>
             
@@ -93,6 +93,7 @@
         <p>
             <label for="iest">Estado:</label>
             <select name="estado" id="iest">
+                <option value="" selected>--- Escolha ---</option>
                 <optgroup label="Região Sudeste">
                     <option value="ES">Espírito Santo</option>
                     <option value="MG">Minas Gerais</option>
@@ -132,6 +133,23 @@
                     <option value="RR">Roraima</option>
                 </optgroup>
             </select>
+        </p>
+
+        <p>
+            <label for="prof">Profissão:</label>
+            <input type="text" name="prof" id="prof" list="lstprof">
+            <datalist id="lstprof">
+                    <option>Administrador</option> <!-- value="ADM" -->
+                    <option>Contabilista</option>   <!-- value="CONT" -->
+                    <option>Desenvolvedor</option>  <!-- value="DEV" -->
+                    <option>Professor</option>
+                </optgroup>  <!-- value="PRO" -->
+            </datalist>
+        </p>
+
+        <p>
+            <label for="msg">Mensagem</label>
+            <textarea name="msg" id="msg" cols="30" rows="5"></textarea>
         </p>
         
         <p>
