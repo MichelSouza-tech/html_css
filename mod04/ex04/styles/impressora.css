@@ -22,5 +22,6 @@ article{
 }
 
 article::after{
+    font-size: .87em;
     content: 'Esse artigo foi impresso através do site www.site.com';
 }
