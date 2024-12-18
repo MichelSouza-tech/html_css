@@ -72,6 +72,22 @@
             <input type="radio" name="sexo" id="isxmasc"> <label for="isxmasc">Masculino</label>
             <input type="radio" name="sexo" id="isxfem" checked> <label for="isxfem">Feminino</label>
         </fieldset>
+
+        <p>
+            <label for="icor">Cor:</label>
+            <input type="color" name="cor" id="icor" value="#00ff00">
+        </p>
+
+        <p>
+            <label for="inivel">Nível de satisfação</label>
+            <input type="range" name="nivel" id="inivel" min="1" max="5" value="3">
+        </p>
+
+        <p>
+            <label for="ifoto">Foto do perfil:</label>
+            <input type="file" name="foto" id="ifoto">
+<!-- quando usar envio de arquivos não pode usar o método get, tem que usar o método post -->
+        </p>
         
         <p>
             <input type="submit" value="Enviar">
