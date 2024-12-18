@@ -29,6 +29,28 @@
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </p>
+
+        <p>
+            <label for="inum">Número</label>
+            <input type="range" name="num" id="inum" min="1" max="10" value="5"
+            oninput="ival.innerHTML = Number(inum.value)">
+            <output id="ival">5</output>
+        </p>
+
+        <p>
+            <label for="iano">Em que ano você nasceu?</label>
+            <input type="number" name="ano" id="iano" min="1900" max="2024" 
+            oninput="calcIdade()">
+        </p>
+        <p>
+            <label for="idade">Idade:</label>
+            <output id="idade">0</output>
+        </p>
     </form>
+    <script>
+        function calcIdade() {
+            let atual = new 
+        }
+    </script>
 </body>
 </html>
