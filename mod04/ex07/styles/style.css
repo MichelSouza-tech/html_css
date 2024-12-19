@@ -22,19 +22,19 @@ body{
 }
 
 main{
-    background-color: rgba(255, 255, 255, 0.836);
+    background-color: rgba(255, 255, 255, 0.904);
     max-width: 60vw;
     margin: auto;
     margin-top: 20px;
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 10px;
 }
 
 h1 {
     text-align: center;
-    color: #9c9494;
+    color: #afadad;
     font-size: 1.3em;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.575);
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.644);
 }
 img{
     display: block;
