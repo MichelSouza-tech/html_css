@@ -16,12 +16,12 @@
      <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex09/index.html"> exercício 09</li>
      <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex10/index.html"> exercício 10</li>
      <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex11/index.html"> exercício 11</li>
-     <a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex12/index.html"> exercício 12
-     <a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex13/index.html"> exercício 13
-     <a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex14/index.html"> exercício 14
-     <a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex15/index.html"> exercício 15
-     <a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex16/index.html"> exercício 16
-     <a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex17/index.html"> exercício 17
-     <a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex18/index.html"> exercício 18
-     <a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex19/index.html"> exercício 19
+     <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex12/index.html"> exercício 12</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex13/index.html"> exercício 13</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex14/index.html"> exercício 14</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex15/index.html"> exercício 15</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex16/index.html"> exercício 16</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex17/index.html"> exercício 17</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex18/index.html"> exercício 18</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex19/index.html"> exercício 19</li>
  </ul>
