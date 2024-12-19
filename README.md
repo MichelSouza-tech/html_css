@@ -13,9 +13,9 @@
      <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex06/html5.html"> exercício 06 - B</li>
      <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex07/index.html"> exercício 07</li>
      <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex08/index.html"> exercício 08</li>
-     <a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex09/index.html"> exercício 09
-     <a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex10/index.html"> exercício 10
-     <a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex11/index.html"> exercício 11
+     <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex09/index.html"> exercício 09</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex10/index.html"> exercício 10</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex11/index.html"> exercício 11</li>
      <a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex12/index.html"> exercício 12
      <a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex13/index.html"> exercício 13
      <a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex14/index.html"> exercício 14
