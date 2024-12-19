@@ -12,7 +12,27 @@ Grandes telas acima de 1201px
 */
 
 @media print { /* impressoras */
-    
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body{
+        background-image: url(../imagens/back-print.jpg);
+    }
+
+    main {
+        border: 2px solid black;
+    }
+    main h1 {
+        text-shadow: none;
+        color: black;
+    }
+
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#print { display: block; }
+    img#desk { display: none; }
+    img#tv { display: none; }
 }
 
 /* @media screen and (max-width: 600px) {}
