@@ -2,7 +2,12 @@
  Curso basico de HTML5 e CSS3 do CursoemVideo
 
  Estou aprendendo o básico da criação de sites com o CursoemVideo do Prof. Gustavo Guanabara!
-
+ 
+ <style> 
+    ul{
+        columns: 2;
+    }
+ </style>
  <ul>
      <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex01/index.html"> exercício 01</li>
      <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex02/index.html"> exercício 02</li>
