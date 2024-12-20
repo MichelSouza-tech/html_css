@@ -3,7 +3,7 @@
 
  Estou aprendendo o básico da criação de sites com o CursoemVideo do Prof. Gustavo Guanabara!
  
- <ul style="columns: 2;">
+ <ul style="list-style-type: circle;">
      <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex01/index.html"> exercício 01</li>
      <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex02/index.html"> exercício 02</li>
      <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex03/index.html"> exercício 03</li>
