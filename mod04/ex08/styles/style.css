@@ -11,31 +11,42 @@ body{
 }
 header{
     background-color: gray;
-    padding: 10px 0;  
 }
 h1{
     text-align: center;
     padding: 10px;
 }
-nav > ul{
-    margin-top: 10px;
+nav{
+    display: block;
 }
-ul li {
-    display: inline;
+nav > ul{
     list-style-type: none;
+}
+nav > ul > li > a {
+    display: block;
     padding: 10px;
+    text-decoration: none;
+    text-align: center;
     background-color: rgb(54, 54, 54);
     color: #fff;
+    border-top: 2px solid gray;
+}
+nav > ul > li > a:hover {
+    background-color: rgb(167, 162, 162);
 }
 main{
+    max-width: 90vw;
     background-color: #fff;
+    margin: auto;
+    margin-top: 10px;
     padding: 10px;
-    max-width: 80vw;
-    margin: 10px auto;
-    border-radius: 8px;
+    border-radius: 10px;
 }
-p{
-    margin: 15px auto;
+section > h2{
+    padding-bottom: 20px;
+}
+section > p{
+    margin-bottom: 10px;
     text-align: justify;
     line-height: 1.4em;
     text-indent: 40px;
