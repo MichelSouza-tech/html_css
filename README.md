@@ -28,7 +28,7 @@
 
 <ul>
     <li><a href="https://michelsouza-tech.github.io/html_css/md01/desafios/d01/index.html"> desafio 01 </a></li>
-    <li><a href="https://michelsouza-tech.github.io/html_css/md01/desafios/d02/index.html"> desafio 01 </a></li>
+    <li><a href="https://michelsouza-tech.github.io/html_css/md01/desafios/d02/index.html"> desafio 02 </a></li>
 </ul>
 
 
