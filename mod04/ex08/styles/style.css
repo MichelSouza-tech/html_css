@@ -15,14 +15,17 @@ header{
 }
 h1{
     text-align: center;
-    margin-bottom: 20px;
+    padding: 10px;
+}
+nav > ul{
+    margin-top: 10px;
 }
 ul li {
     display: inline;
+    list-style-type: none;
     padding: 10px;
     background-color: rgb(54, 54, 54);
     color: #fff;
-    border-radius: 5px;
 }
 main{
     background-color: #fff;
@@ -31,11 +34,9 @@ main{
     margin: 10px auto;
     border-radius: 8px;
 }
-
 p{
     margin: 15px auto;
     text-align: justify;
     line-height: 1.4em;
     text-indent: 40px;
-    
 }
