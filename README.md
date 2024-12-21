@@ -24,6 +24,17 @@
      <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex17/index.html"> exercício 17</li>
      <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex18/index.html"> exercício 18</li>
      <li><a href="https://michelsouza-tech.github.io/html_css/md01/exercicios/ex19/index.html"> exercício 19</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md02/exercicios/ex20/index.html"> exercício 20</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md02/exercicios/ex21/index.html"> exercício 21</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md02/exercicios/ex22/index.html"> exercício 22</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md02/exercicios/ex23/index.html"> exercício 23</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md02/exercicios/ex24/index.html"> exercício 24</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md02/exercicios/ex25/index.html"> exercício 25</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md02/exercicios/ex26/index.html"> exercício 26</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md02/exercicios/ex27/index.html"> exercício 27</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md02/exercicios/ex28/index.html"> exercício 28</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md02/exercicios/ex29/index.html"> exercício 29</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md02/exercicios/ex30/index.html"> exercício 30</li>
  </ul>
 
 <ul>
