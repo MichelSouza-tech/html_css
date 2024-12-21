@@ -8,6 +8,7 @@
 body{
     background-color: rgb(221, 220, 220);
     font-family: Arial, Helvetica, sans-serif;
+    color: dark;
 }
 header{
     background-color: gray;
