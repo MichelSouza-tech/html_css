@@ -35,6 +35,14 @@
      <li><a href="https://michelsouza-tech.github.io/html_css/md02/exercicios/ex28/index.html"> exercício 28</li>
      <li><a href="https://michelsouza-tech.github.io/html_css/md02/exercicios/ex29/index.html"> exercício 29</li>
      <li><a href="https://michelsouza-tech.github.io/html_css/md02/exercicios/ex30/index.html"> exercício 30</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md03/ex31/fundo-01.html"> exercício 31</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md03/ex31/fundo-02.html"> exercício 32</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md03/ex31/fundo-03.html"> exercício 33</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md03/ex31/fundo-04.html"> exercício 34</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md03/ex31/fundo-05.html"> exercício 35</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md03/ex31/fundo-06.html"> exercício 36</li>
+     <li><a href="https://michelsouza-tech.github.io/html_css/md03/ex31/fundo-07.html"> exercício 37</li>
+     
  </ul>
 
 <ul>
