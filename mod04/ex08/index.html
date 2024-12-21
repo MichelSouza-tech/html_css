@@ -10,7 +10,7 @@
    
     <title>Media Query</title>
 </head>
-<body>
+<body onresize="modouTamanho()">
     <header>
         <h1>Meu Site</h1>
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()" > menu </span>
@@ -40,6 +40,14 @@
                 menu.style.display = 'none';
             } else {
                 menu.style.display = 'block'
+            }
+
+            function modouTamanho() {
+                if (window.innerWidth >= 768) {
+                    menu.style.display = 'block'
+                } else {
+                    menu.style.display = 'none'
+                }
             }
         }
     </script>
