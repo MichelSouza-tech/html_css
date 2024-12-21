@@ -34,7 +34,7 @@
     <li><a href="https://michelsouza-tech.github.io/html_css/md01/desafios/d05/index.html"> desafio 05 </a></li>
     <li><a href="https://michelsouza-tech.github.io/html_css/md01/desafios/d06/index.html"> desafio 06 </a></li>
     <li><a href="https://michelsouza-tech.github.io/html_css/md01/desafios/d07/index.html"> desafio 07 </a></li>
-    <li><a href="https://michelsouza-tech.github.io/html_css/md01/desafios/d08/index.html"> desafio 08 </a></li>
+    <li><a href="https://michelsouza-tech.github.io/html_css/md01/desafios/d08/cinza.html"> desafio 08 </a></li>
     <li><a href="https://michelsouza-tech.github.io/html_css/md01/desafios/d09/index.html"> desafio 09 </a></li>
 </ul>
 
